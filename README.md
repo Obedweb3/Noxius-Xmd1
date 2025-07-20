@@ -50,7 +50,7 @@
 ### 🚀 DEPLOY TO PLATFORM
 
 **Heroku**  
-[![](https://img.shields.io/badge/🚀_DEPLOY_ON_HEROKU-6971FF?style=for-the-badge&logo=heroku&logoColor=white)](https://dashboard.heroku.com/new?template=https://github.com/Obedweb3/Noxious-Xmd1-/tree/main)
+[![](https://img.shields.io/badge/🚀_DEPLOY_ON_HEROKU-6971FF?style=for-the-badge&logo=heroku&logoColor=white)](https://dashboard.heroku.com/new?template=https://github.com/Obedweb3/Noxius-Xmd1)
 
 **Render**  
 [![](https://img.shields.io/badge/🚀_DEPLOY_ON_RENDER-black?style=for-the-badge&logo=render)](https://dashboard.render.com/web/new)
