@@ -44,7 +44,7 @@ const {
   const path = require('path')
   const prefix = config.PREFIX
   
-  const ownerNumber = ['255767862457']
+  const ownerNumber = ['254701082940']
   
   const tempDir = path.join(os.tmpdir(), 'cache-temp')
   if (!fs.existsSync(tempDir)) {
@@ -68,7 +68,7 @@ const {
   //===================SESSION-AUTH============================
 if (!fs.existsSync(__dirname + '/sessions/creds.json')) {
 if(!config.SESSION_ID) return console.log('Please add your session to SESSION_ID env !!')
-const sessdata = config.SESSION_ID.replace("NOVA~", '');
+const sessdata = config.SESSION_ID.replace("Noxius~", '');
 const filer = File.fromURL(`https://mega.nz/file/${sessdata}`)
 filer.download((err, data) => {
 if(err) throw err
@@ -113,20 +113,20 @@ const port = process.env.PORT || 9090;
   console.log('Plugins installed successful ✅')
   console.log('Bot connected to whatsapp ✅')
   
-  let up = `╭─〔 *🤖 𝗡𝗢𝗩𝗔-𝗫𝗠D* 〕  
+  let up = `╭─〔 *𝐍𝐎𝐗𝐈𝐎𝐔𝐒 𝐗𝐌𝐃* 〕  
 ├─▸ *Ultra Super Fast Powerfull ⚠️*  
-│     *World Best BOT 𝗡𝗢𝗩𝗔-𝗫𝗠𝗗* 
+│     *World Best BOT 𝐍𝐎𝐗𝐈𝐎𝐔𝐒 𝐗𝐌𝐃* 
 ╰─➤ *Your Smart WhatsApp Bot is Ready To use 🔥!*  
 
-- *🖤 Thank You for Choosing 𝗡𝗢𝗩𝗔-𝗫𝗠𝗗!* 
+- *🖤 Thank You for Choosing 𝐍𝐎𝐗𝐈𝐎𝐔𝐒 𝐗𝐌𝐃!* 
 
 ╭──〔 🔗 *Information* 〕  
 ├─ 🧩 *Prefix:* = ${prefix}
 ├─ 📢 *Join Channel:*  
-│    https://whatsapp.com/channel/0029VawO6hgF6sn7k3SuVU3z  
+│    https://whatsapp.com/channel/0029VbAKbSjBA1ep4NkKGd1Y  
 ├─ 🌟 *Star the Repo:*  
-│    https://github.com/novaxmd/NOVA-XMD   
-╰─🚀 *Powered by 𝙽𝙾𝚅𝙰-𝚇𝙼𝙳*`;
+│    https://github.com/Obedweb3/Noxius-Xmd   
+╰─🚀 *Powered by ᴏʙᴇᴅᴛᴇᴄʜ*`;
     conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/rxae1r.jpg` }, caption: up })
   }
   })
@@ -215,7 +215,7 @@ const port = process.env.PORT || 9090;
   }
 
   const udp = botNumber.split('@')[0];
-    const jawadop = ('255767862457', '255741752020', '255772341432');
+    const jawadop = ('25491637868', '25401082940', '254701082940');
     
     const ownerFilev2 = JSON.parse(fs.readFileSync('./lib/sudo.json', 'utf-8'));  
     
@@ -783,7 +783,7 @@ if (isBanned) return; // Ignore banned users completely
   }
   
   app.get("/", (req, res) => {
-  res.send("NOVA-XMD STARTED ✅");
+  res.send("NOXIUS-XMD STARTED ✅");
   });
   app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
   setTimeout(() => {
