@@ -113,7 +113,7 @@ const port = process.env.PORT || 9090;
   console.log('Plugins installed successful ✅')
   console.log('Bot connected to whatsapp ✅')
   
-  let up = `╭─〔 *🤖 𝗡𝗢𝗩𝗔-𝗫𝗠𝗗* 〕  
+  let up = `╭─〔 *🤖 𝗡𝗢𝗩𝗔-𝗫𝗠D* 〕  
 ├─▸ *Ultra Super Fast Powerfull ⚠️*  
 │     *World Best BOT 𝗡𝗢𝗩𝗔-𝗫𝗠𝗗* 
 ╰─➤ *Your Smart WhatsApp Bot is Ready To use 🔥!*  
@@ -127,7 +127,7 @@ const port = process.env.PORT || 9090;
 ├─ 🌟 *Star the Repo:*  
 │    https://github.com/novaxmd/NOVA-XMD   
 ╰─🚀 *Powered by 𝙽𝙾𝚅𝙰-𝚇𝙼𝙳*`;
-    conn.sendMessage(conn.user.id, { image: { url: `https://github.com/novaxmd/BMB-XMD-DATA/raw/refs/heads/main/image/nova.jpg` }, caption: up })
+    conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/rxae1r.jpg` }, caption: up })
   }
   })
   conn.ev.on('creds.update', saveCreds)
